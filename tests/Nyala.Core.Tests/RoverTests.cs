@@ -39,8 +39,8 @@
         }
 
         [Theory]
-        [InlineData("f,f,l,f", -1, 3)]
-        [InlineData("b,b,r,b", 1, -3)]
+        [InlineData("f,f,l,f", 5, 3)]
+        [InlineData("b,b,r,b", 1, 3)]
         public void ShouldSetCorrectCoordinatesAfterSendingMulitpleCommands(string commands, int expectedX, int expectedY)
         {
             var subject = new Rover(5);
