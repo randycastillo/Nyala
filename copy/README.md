@@ -1,2 +1,0 @@
-# Nyala
-Code Challenge
