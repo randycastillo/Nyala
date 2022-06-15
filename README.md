@@ -12,8 +12,8 @@ Mars rover kata
 
 ## Overview
 - Implementation:
---Plain code execution, no architectural design and patterns, hackathon style coding
---Showcase TDD and a just a glimpse of BDD tool using specflow
+-- Plain code execution, no architectural design and patterns, hackathon style coding
+-- Showcase TDD and a just a glimpse of BDD tool using specflow
 
 ## Technology stack
 - C#
