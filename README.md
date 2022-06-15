@@ -26,5 +26,6 @@ Mars rover kata
 - C#
 - Net 6
 - XUnit
+- NSubstitute
 - FluentAssertions
 - Specflow
