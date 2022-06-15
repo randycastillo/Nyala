@@ -36,7 +36,7 @@
         public void RoverCoordinatesShouldBe(int xCoordinate, int yCoordinate, DirectionEnum direction)
         {
             var roverLocation = $"{xCoordinate},{yCoordinate} facing {direction}";
-            this.rover.GetCurrentCoordinates().Should().Be(roverLocation);
+            this.rover.GetCurrentLocation().Should().Be(roverLocation);
         }
 
         [When(@"I send commands (.*)")]

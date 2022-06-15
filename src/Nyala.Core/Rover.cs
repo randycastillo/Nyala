@@ -21,7 +21,7 @@
             this.Obtacles = new List<(int, int)>();
         }
 
-        public string GetCurrentCoordinates()
+        public string GetCurrentLocation()
         {
             return $"{this.XCoordinate},{this.YCoordinate} facing {this.Direction}";
         }
@@ -93,7 +93,7 @@
             var hasObtacles = this.Obtacles.Any(x => x == nextMove);
             if (hasObtacles)
             {
-                throw new ObstacleDetectedException($"Obstacle is detected. Cannot proceed. CurrentLocation {this.GetCurrentCoordinates()}.");
+                throw new ObstacleDetectedException($"Obstacle is detected. Cannot proceed. CurrentLocation {this.GetCurrentLocation()}.");
             }
         }
     }
