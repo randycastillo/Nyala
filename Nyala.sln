@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nyala.Domain", "src\Nyala.Core\Nyala.Domain.csproj", "{874A6B76-FCB7-4405-B14A-F24C340AAA7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nyala.Core", "src\Nyala.Core\Nyala.Core.csproj", "{874A6B76-FCB7-4405-B14A-F24C340AAA7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9BD2B1D-EABF-437D-95F3-113AC360790B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D4B4092E-6205-40C3-B3CD-6AED8EAC416B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nyala.Core.Tests.Unit", "tests\Nyala.Core.Tests\Nyala.Core.Tests.Unit.csproj", "{31528CC6-EF38-49AE-A775-F30078958D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nyala.Core.Unit.Tests", "tests\Nyala.Core.Tests\Nyala.Core.Unit.Tests.csproj", "{31528CC6-EF38-49AE-A775-F30078958D8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nyala.Core.Acceptance.Tests", "tests\Nyala.Core.Acceptance.Tests\Nyala.Core.Acceptance.Tests.csproj", "{A933D55F-6C41-47CD-B0C8-059DAFE5BF59}"
 EndProject

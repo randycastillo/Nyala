@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Nyala.Core\Nyala.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Nyala.Core\Nyala.Core.csproj" />
   </ItemGroup>
 
 </Project>
