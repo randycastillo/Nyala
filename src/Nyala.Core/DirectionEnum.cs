@@ -1,4 +1,4 @@
-﻿namespace Nyala.Domain
+﻿namespace Nyala.Core
 {
     public enum DirectionEnum
     {

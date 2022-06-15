@@ -1,9 +1,8 @@
-﻿namespace Nyala.Core.Tests
+﻿namespace Nyala.Core.Unit.Tests
 {
     using FluentAssertions;
     using NSubstitute;
-    using NSubstitute.ExceptionExtensions;
-    using Nyala.Domain;
+    using Nyala.Core;
     using Xunit;
 
     public class RoverTests

@@ -1,6 +1,6 @@
 ﻿namespace Nyala.Core.Acceptance.Tests.StepDefinitions
 {
-    using Nyala.Domain;
+    using Nyala.Core;
     using TechTalk.SpecFlow;
     using FluentAssertions;
 
