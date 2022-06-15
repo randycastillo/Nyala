@@ -15,6 +15,13 @@ Mars rover kata
   - Plain codes, no architectural design and patterns, hackathon style coding
   - Showcase TDD and a just a glimpse of BDD tool using specflow
 
+## Project structure
+- src
+  - Nyala.Core
+- tests
+  - Nyala.Core.Acceptance.Tests
+  - Nyala.Core.Unit.Tests
+
 ## Technology stack
 - C#
 - Net Core 6
