@@ -24,7 +24,7 @@ Mars rover kata
 
 ## Technology stack
 - C#
-- Net Core 6
+- Net 6
 - XUnit
 - FluentAssertions
 - Specflow
