@@ -12,7 +12,7 @@ Mars rover kata
 
 ## Overview
 - Implementation:
-  - Plain codes, no architectural design and patterns, hackathon style coding
+  - Plain codes(kata style), no architectural design and patterns
   - Showcase TDD and a just a glimpse of BDD tool using specflow
 
 ## Project structure
