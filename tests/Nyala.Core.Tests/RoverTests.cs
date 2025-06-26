@@ -17,7 +17,7 @@
         [Fact]
         public void ShouldInitiateWithStartingPoint()
         {
-            var subject = new Rover(5);
+            var subject = new Rover(4);
             var coordinates = subject.GetCurrentLocation();
             coordinates.Should().Be($"0,0 facing North");
         }
