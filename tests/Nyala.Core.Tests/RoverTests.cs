@@ -10,7 +10,7 @@
         [Fact]
         public void ShouldInitiateRover()
         {
-            var subject = new Rover(5);
+            var subject = new Rover(4);
             subject.Should().BeOfType<Rover>();
         }
 
